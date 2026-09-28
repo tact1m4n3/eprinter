@@ -260,12 +260,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|304800|584200|30fcbbd2-f8a8-485d-a030-d9fa29ed9f70|e3d77217-5f1f-4a9a-a4c5-1fa162efd02d|/4517a0d1-bae7-44a7-9b82-af602f7f93dc|/4517a0d1-bae7-44a7-9b82-af602f7f93dc|/4517a0d1-bae7-44a7-9b82-af602f7f93dc",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -465,7 +460,7 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "ignore",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
@@ -674,7 +669,7 @@
         "uuid": "4517a0d1-bae7-44a7-9b82-af602f7f93dc"
       }
     ],
-    "used_designators": "SW1-2,#FLG1-7,J1-3,P1,D1-5,C1-7,TP1-2,R1-15,#PWR1-23,U1-4",
+    "used_designators": "SW1-2,#FLG1-7,J1-4,P1,D1-5,C1-7,TP1-6,R1-17,#PWR1-23,U1-4",
     "variants": []
   },
   "sheets": [
