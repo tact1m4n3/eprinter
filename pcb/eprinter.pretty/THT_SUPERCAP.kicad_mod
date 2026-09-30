@@ -3,11 +3,23 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 8.5 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4a61f89e-e774-4b69-98f1-dc86aed214e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(property "Value" "THT_SUPERCAP"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a5a4ec49-a8bc-462e-8efb-828929c6d5a2")
+		(uuid "25d7ce2f-5596-48d3-971a-973d640522d1")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "11627c04-fdd9-442c-8434-bc5319377d5d")
+		(uuid "79d2d4bd-79d9-49e8-bb10-37f48213b7b0")
 		(effects
 			(font
 				(size 1 1)
@@ -33,23 +45,11 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6701ecf4-8417-4a64-b084-97c6259c72bb")
+		(uuid "8f40f3af-deda-4eb0-9717-8e6ffb3d08b1")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "REF**"
-		(at 1 -2 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "fe7fb5e6-2867-46ea-82d0-07580cd8afaf")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
 			)
 		)
 	)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c2e281c9-37a9-41bc-b039-5d7dc5ae7c4b")
+		(uuid "5cf104bb-24c6-49a1-bb48-5566a45a5267")
 	)
 	(fp_line
 		(start -2 2)
@@ -73,7 +73,37 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c1fa8555-fbc8-4a47-bd03-d351ebf8da4f")
+		(uuid "c9bc2e26-33de-4165-bbf7-5e09510774b8")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end -0.5 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e26ece16-a3ee-41ef-bcec-efdb5052cab6")
+	)
+	(fp_line
+		(start -1 0.5)
+		(end -1 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50e303a8-d73a-4fbb-916b-f469409e3b47")
+	)
+	(fp_line
+		(start 16 1)
+		(end 17 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69b6a8ec-acd0-4876-bba2-2ccda9c743f4")
 	)
 	(fp_line
 		(start 17.5 -2)
@@ -83,13 +113,13 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a74c2779-b830-4d15-a70c-2869d9c0ca02")
+		(uuid "da4e5fd8-7403-45ea-92be-e2587a5ab35b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "268b43a6-621d-4bbf-9ebf-c3ff614aaac7")
+		(uuid "e67d3381-8e29-4cd8-b309-901724ed88f2")
 		(effects
 			(font
 				(size 1 1)
@@ -103,7 +133,7 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "aa5123f2-041d-4d24-8902-0faa9b514205")
+		(uuid "e13f27c4-ccbe-4a5f-87f7-d80b4967181b")
 	)
 	(pad "2" thru_hole circle
 		(at 15.5 0)
@@ -111,7 +141,7 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "86ff91b6-68ec-4447-bed8-52a19a7a6c0d")
+		(uuid "58eeae3a-6ac6-40d1-ba4d-23189dec9f30")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -120,7 +150,7 @@
 			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
 			"In29.Cu" "In30.Cu"
 		)
-		(uuid "6b8fdda3-1de9-4230-8770-cb5f65d2b5e5")
+		(uuid "0d282e2d-1290-444f-aa5f-840a69a9020f")
 		(hatch full 0.5)
 		(connect_pads
 			(clearance 0)
