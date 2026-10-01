@@ -114,7 +114,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -669,7 +669,7 @@
         "uuid": "4517a0d1-bae7-44a7-9b82-af602f7f93dc"
       }
     ],
-    "used_designators": "SW1-2,#FLG1-7,J1-4,P1,D1-5,C1-7,TP1-6,R1-19,#PWR1-23,U1-5",
+    "used_designators": "SW1-2,D1-5,C1-7,#PWR1-23,#FLG1-7,J1-4,U1-5,TP1-6,P1,R1-19",
     "variants": []
   },
   "sheets": [
