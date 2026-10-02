@@ -2534,7 +2534,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:PMEG2010AEJ"
+		(symbol "Diode:PMEG2010EJ"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2556,7 +2556,7 @@
 					)
 				)
 			)
-			(property "Value" "PMEG2010AEJ"
+			(property "Value" "PMEG2010EJ"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2577,7 +2577,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010AEJ.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010EH_EJ_ET.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2621,7 +2621,7 @@
 					)
 				)
 			)
-			(symbol "PMEG2010AEJ_0_1"
+			(symbol "PMEG2010EJ_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -2659,7 +2659,7 @@
 					)
 				)
 			)
-			(symbol "PMEG2010AEJ_1_1"
+			(symbol "PMEG2010EJ_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3347,191 +3347,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Reference_Voltage:TL431DBZ"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TL431DBZ"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-				(at 1.778 -9.144 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" "Shunt Regulator, SOT-23"
-				(at 0 -7.112 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode device shunt regulator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TL431DBZ_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TL431DBZ_1_1"
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "REF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:XC6220B331MR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4183,6 +3998,191 @@
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eprinter:LM431BIM3X"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM431BIM3X"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.778 -9.144 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "Shunt Regulator, SOT-23"
+				(at 0 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode device shunt regulator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM431BIM3X_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LM431BIM3X_1_1"
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5848,6 +5848,16 @@
 		)
 		(uuid "46cedd53-77b0-480d-ba37-9d0da0ba0d5b")
 	)
+	(text "Taken from GDEY042Z98 (4.2\") datasheet\nTODO: see what components need to be changed\nfor different sizes"
+		(exclude_from_sim no)
+		(at 146.812 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a6cd35d-14a7-45b3-b018-c1bfac6117cf")
+	)
 	(text "Solar+ and Vin are in 0 - 5.1V range divided \nto 0 - 1.04V. The ADC must be configured with \n2.5dB attenuation covering 0 - 1.05V range."
 		(exclude_from_sim no)
 		(at 142.494 149.86 0)
@@ -5976,7 +5986,7 @@
 		(at 113.03 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8df6f501-92ea-4535-add8-6b89e26be4dd")
+		(uuid "90179cff-34a1-413f-9bd5-037536a8fe5f")
 	)
 	(junction
 		(at 135.89 29.21)
@@ -6323,6 +6333,16 @@
 			(type default)
 		)
 		(uuid "138443bc-bed8-4adb-919c-e16e2f504fb8")
+	)
+	(wire
+		(pts
+			(xy 113.03 16.51) (xy 102.87 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c1ef43-d772-49ea-9086-4d7d830d0963")
 	)
 	(wire
 		(pts
@@ -7376,7 +7396,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 24.13) (xy 113.03 29.21)
+			(xy 113.03 25.4) (xy 113.03 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7423,6 +7443,16 @@
 			(type default)
 		)
 		(uuid "87748e88-fc9e-4ce7-a3d7-d27a7652ad1f")
+	)
+	(wire
+		(pts
+			(xy 113.03 17.78) (xy 113.03 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f7eee1-ab7e-4ab7-b9ee-89852db4b720")
 	)
 	(wire
 		(pts
@@ -7693,16 +7723,6 @@
 			(type default)
 		)
 		(uuid "a8f60028-7562-4384-895a-a5142d2ca929")
-	)
-	(wire
-		(pts
-			(xy 102.87 16.51) (xy 113.03 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a93f7e2f-acdc-4b6b-a206-dc7d5286446d")
 	)
 	(wire
 		(pts
@@ -9061,6 +9081,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 234.95 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97675eb6-8bdb-4347-aa00-746978e69505")
 		)
@@ -9132,6 +9163,17 @@
 		)
 		(property "Description" "Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6"
 			(at 93.98 49.784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2869734"
+			(at 93.98 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9547,6 +9589,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 243.84 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "88a13e03-4a87-41a2-87c6-1c22fbf45a31")
 		)
@@ -9617,6 +9670,17 @@
 			)
 		)
 		(property "Description" "1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 256.54 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C86534"
 			(at 256.54 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9707,6 +9771,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 35.56 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 35.56 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,6 +9949,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 36.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "cee5047e-9d7e-4af9-bdfe-7fe56c5df100")
 		)
@@ -9988,6 +10074,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 254 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 254 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10144,8 +10241,19 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 144.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76865"
+			(at 144.78 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10315,6 +10423,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 115.57 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4bf7894-f785-4904-919b-22af0d685af2")
 		)
@@ -10387,6 +10506,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 148.59 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10479,6 +10609,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 77.47 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bc54449-d359-438f-b4e5-8f5128970202")
 		)
@@ -10551,6 +10692,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 270.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 270.51 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10721,6 +10873,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 77.47 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b106f816-de8f-4ea7-a2ac-5c78a5e2d258")
 		)
@@ -10869,6 +11032,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 63.5 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11116,6 +11290,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 185.42 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13e06014-dc70-4b3a-9893-2e78c5843a31")
 		)
@@ -11288,6 +11473,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:PMEG2010EJ")
+		(at 113.03 21.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5edcef7d-a884-4c28-9579-029f662a60f2")
+		(property "Reference" "D3"
+			(at 114.808 17.272 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PMEG2010EJ"
+			(at 114.808 19.812 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 117.475 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010EH_EJ_ET.pdf"
+			(at 113.03 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-323F"
+			(at 113.03 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C552826"
+			(at 113.03 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca6ae2c3-3941-4a8c-b7bc-8841f4eae212")
+		)
+		(pin "2"
+			(uuid "d7d7e4a5-e2bb-4f38-b190-893b49352004")
+		)
+		(instances
+			(project "eprinter"
+				(path "/4517a0d1-bae7-44a7-9b82-af602f7f93dc"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 185.42 31.75 0)
 		(unit 1)
@@ -11354,6 +11631,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 185.42 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b796e290-0c68-44a8-9140-044be547ad39")
 		)
@@ -11375,7 +11663,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11423,6 +11711,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 252.73 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 252.73 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11583,6 +11882,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 172.72 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 172.72 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11907,6 +12217,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C82046"
+			(at 163.83 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45460c5f-9eb9-4b51-9746-f76802bfa571")
 		)
@@ -11981,6 +12302,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 127 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C10487"
 			(at 127 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12233,6 +12565,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 82.55 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e001f6ad-af95-4030-83ff-1854e8cbe53d")
 		)
@@ -12403,6 +12746,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 93.98 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22671bd4-8ee7-42ac-ba7b-af75e00b9b91")
 		)
@@ -12413,87 +12767,6 @@
 			(project "eprinter"
 				(path "/4517a0d1-bae7-44a7-9b82-af602f7f93dc"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:PMEG2010AEJ")
-		(at 113.03 20.32 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "940259e8-3599-4f98-b451-f9a9ffd1aca3")
-		(property "Reference" "D3"
-			(at 114.808 16.764 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PMEG2010AEJ"
-			(at 114.808 19.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 117.475 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010AEJ.pdf"
-			(at 113.03 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "20V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-323F"
-			(at 113.03 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f05c36fd-f171-4977-8873-e471617411af")
-		)
-		(pin "2"
-			(uuid "ec256aa0-25c1-4f28-ae99-a2eae14cbdb0")
-		)
-		(instances
-			(project "eprinter"
-				(path "/4517a0d1-bae7-44a7-9b82-af602f7f93dc"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12634,6 +12907,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 185.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 185.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12804,6 +13088,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 237.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4ca577a3-804e-447c-a4bf-3a4b0932cf30")
 		)
@@ -12876,6 +13171,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 224.79 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 224.79 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13124,6 +13430,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 48.26 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "50ade6af-7e10-45d2-84c5-271fe0c86e72")
 		)
@@ -13218,6 +13535,104 @@
 		)
 	)
 	(symbol
+		(lib_id "eprinter:LM431BIM3X")
+		(at 57.15 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0bfe418-a601-4b6f-b5fc-838b92d79da2")
+		(property "Reference" "U2"
+			(at 59.69 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LM431BIM3X"
+			(at 59.69 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 61.976 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.294 37.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "Shunt Regulator, SOT-23"
+			(at 64.262 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C132030"
+			(at 57.15 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98102f30-c3c5-4212-9366-b8a610d00015")
+		)
+		(pin "2"
+			(uuid "b57e0365-c892-4475-bed4-69e2d04a29fb")
+		)
+		(pin "3"
+			(uuid "f462f109-136e-4278-81dc-c8d8f7b5f993")
+		)
+		(instances
+			(project "eprinter"
+				(path "/4517a0d1-bae7-44a7-9b82-af602f7f93dc"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 166.37 0)
 		(unit 1)
@@ -13274,6 +13689,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 132.08 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -13363,6 +13789,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 63.5 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "403f6aaa-19ef-40ff-9721-ade20ac5cc28")
 		)
@@ -13433,6 +13870,17 @@
 			)
 		)
 		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 176.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C82046"
 			(at 176.53 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13525,6 +13973,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 245.11 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8af5276a-263c-413c-90ee-d8d127ec388f")
 		)
@@ -13562,7 +14021,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x26_Pin"
+		(property "Value" "AFC07-S24FCC-00"
 			(at 207.645 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13595,6 +14054,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x26, script generated"
+			(at 207.01 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720477"
 			(at 207.01 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13840,6 +14310,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C469327"
+			(at 152.4 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b95159dd-4a2f-4d2c-9ff6-8a9b0a3f5a41")
 		)
@@ -13915,6 +14396,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 144.78 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 144.78 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14160,6 +14652,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C511290"
+			(at 208.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d26d7aa2-2687-47e9-8051-c4ceb99d9dd4")
 		)
@@ -14241,6 +14744,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 234.95 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 234.95 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14333,6 +14847,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 119.38 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a34881c-e433-4a92-b97c-5d0d4387f721")
 		)
@@ -14370,7 +14895,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "RESET"
 			(at 64.77 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14405,6 +14930,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 63.5 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 63.5 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14486,6 +15022,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 129.54 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14654,6 +15201,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C82046"
+			(at 176.53 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f0fbc02-dfce-446f-8035-5c979b045a86")
 		)
@@ -14675,7 +15233,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14725,6 +15283,17 @@
 			)
 		)
 		(property "Description" "ADCM-S05R5SA505RB"
+			(at 74.93 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 74.93 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14817,6 +15386,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 93.98 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5670fca-4cf5-4e14-b8d4-24655b649c9c")
 		)
@@ -14889,6 +15469,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 48.26 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14981,6 +15572,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 93.98 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb2dbafc-81af-4410-a0f0-bb585be64f7b")
 		)
@@ -15054,6 +15656,17 @@
 		)
 		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
 			(at 40.64 163.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2934560"
+			(at 40.64 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15151,7 +15764,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "BOOT"
 			(at 95.25 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15195,6 +15808,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C720477"
+			(at 93.98 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ff240c02-f791-4c8f-af71-13ef38601702")
 		)
@@ -15205,93 +15829,6 @@
 			(project "eprinter"
 				(path "/4517a0d1-bae7-44a7-9b82-af602f7f93dc"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Reference_Voltage:TL431DBZ")
-		(at 57.15 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2fd958c-e9b6-492e-8e2c-2bfa99b657ff")
-		(property "Reference" "U2"
-			(at 59.69 38.0999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TL431DBZ"
-			(at 59.69 40.6399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 61.976 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 66.294 37.592 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "Shunt Regulator, SOT-23"
-			(at 64.262 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "a4e01d25-556b-4d2b-9621-ac2659f9f690")
-		)
-		(pin "1"
-			(uuid "c022c26c-8b58-4476-a88f-06d5046f8137")
-		)
-		(pin "2"
-			(uuid "7bd938a2-18a5-456a-a948-acc13024bfac")
-		)
-		(instances
-			(project "eprinter"
-				(path "/4517a0d1-bae7-44a7-9b82-af602f7f93dc"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -15354,6 +15891,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 161.29 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 161.29 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15436,6 +15984,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 95.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 95.25 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15606,6 +16165,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 274.32 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d86f1578-6a9e-43a0-8e66-b75a1a6df062")
 		)
@@ -15678,6 +16248,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 262.89 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -15770,6 +16351,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 161.29 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "175776c2-80ba-4965-bc26-5ff399c8f08d")
 		)
@@ -15852,6 +16444,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d62d4dbe-46de-44e6-9b62-9b66f0fdc832")
 		)
@@ -15923,6 +16526,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 124.46 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 124.46 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16089,6 +16703,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C130415"
+			(at 66.04 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "749c94b2-6b50-4972-bb04-1b331bd3db03")
 		)
@@ -16161,6 +16786,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 154.94 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16253,6 +16889,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 132.08 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c821f8c-cf59-4e9a-8385-7cf313c45ba7")
 		)
@@ -16325,6 +16972,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 77.47 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 77.47 179.07 0)
 			(hide yes)
 			(show_name no)
