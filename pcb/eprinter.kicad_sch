@@ -6446,16 +6446,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 132.08) (xy 93.98 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f6b0576-0c62-451c-ba82-1097ece494e4")
-	)
-	(wire
-		(pts
 			(xy 77.47 185.42) (xy 77.47 182.88)
 		)
 		(stroke
@@ -7123,6 +7113,16 @@
 			(type default)
 		)
 		(uuid "6a64ccaf-c76b-4398-82d5-1fbe5d3dced8")
+	)
+	(wire
+		(pts
+			(xy 93.98 132.08) (xy 88.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b81cb5e-7bd1-462a-8cd6-f19b0717ce99")
 	)
 	(wire
 		(pts
@@ -7973,6 +7973,16 @@
 			(type default)
 		)
 		(uuid "c59933c8-4322-4c56-83a7-097ca0179777")
+	)
+	(wire
+		(pts
+			(xy 93.98 133.35) (xy 93.98 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bb5256-df86-4edb-a349-26eb5c9b945a")
 	)
 	(wire
 		(pts
@@ -9081,7 +9091,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77040"
+		(property "LCSC" "C19702"
 			(at 234.95 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9780,7 +9790,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2077177"
+		(property "LCSC" "C22936"
 			(at 35.56 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -10084,7 +10094,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77046"
+		(property "LCSC" "C15849"
 			(at 254 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10423,7 +10433,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C169103"
+		(property "LCSC" "C25804"
 			(at 115.57 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10516,7 +10526,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77050"
+		(property "LCSC" "C14663"
 			(at 148.59 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10609,7 +10619,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C169103"
+		(property "LCSC" "C25804"
 			(at 77.47 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -10702,7 +10712,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77040"
+		(property "LCSC" "C19702"
 			(at 270.51 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10873,7 +10883,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77040"
+		(property "LCSC" "C19702"
 			(at 77.47 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11041,7 +11051,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C71618"
+		(property "LCSC" "C23345"
 			(at 63.5 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -12565,7 +12575,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844375"
+		(property "LCSC" "C23186"
 			(at 82.55 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12671,7 +12681,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 93.98 143.51 90)
+		(at 93.98 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12681,7 +12691,7 @@
 		(dnp no)
 		(uuid "8e237438-9e1e-4c6f-b614-f47ae25683c4")
 		(property "Reference" "D2"
-			(at 88.392 141.986 90)
+			(at 88.392 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12692,7 +12702,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 88.392 144.526 90)
+			(at 88.392 145.796 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12703,7 +12713,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 93.98 143.51 0)
+			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12714,7 +12724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 143.51 0)
+			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12725,7 +12735,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 93.98 143.51 0)
+			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12736,7 +12746,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 143.51 0)
+			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12746,8 +12756,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C83242"
-			(at 93.98 143.51 90)
+		(property "LCSC" "C2286"
+			(at 93.98 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13088,7 +13098,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77046"
+		(property "LCSC" "C15849"
 			(at 237.49 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13181,7 +13191,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77046"
+		(property "LCSC" "C15849"
 			(at 224.79 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13430,7 +13440,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C169103"
+		(property "LCSC" "C25804"
 			(at 48.26 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -13789,7 +13799,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C71618"
+		(property "LCSC" "C23345"
 			(at 63.5 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -13973,7 +13983,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77046"
+		(property "LCSC" "C15849"
 			(at 245.11 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -14064,7 +14074,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C720477"
+		(property "LCSC" "C11057"
 			(at 207.01 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -14406,7 +14416,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C313691"
+		(property "LCSC" "C22935"
 			(at 144.78 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14754,7 +14764,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77046"
+		(property "LCSC" "C15849"
 			(at 234.95 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14847,7 +14857,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77050"
+		(property "LCSC" "C14663"
 			(at 119.38 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -14895,7 +14905,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "SW_PUSH"
 			(at 64.77 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15321,7 +15331,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 135.89 0)
+		(at 93.98 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15332,7 +15342,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce492020-242b-4275-9b92-f1f5dbd3c1d7")
 		(property "Reference" "R8"
-			(at 96.52 134.6199 0)
+			(at 96.52 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15342,8 +15352,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 96.52 137.1599 0)
+		(property "Value" "470"
+			(at 96.52 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15354,7 +15364,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.202 135.89 90)
+			(at 92.202 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15365,7 +15375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 135.89 0)
+			(at 93.98 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15376,7 +15386,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 135.89 0)
+			(at 93.98 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15386,8 +15396,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C844724"
-			(at 93.98 135.89 0)
+		(property "LCSC" "C23179"
+			(at 93.98 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15479,7 +15489,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C169103"
+		(property "LCSC" "C25804"
 			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -15572,7 +15582,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C169103"
+		(property "LCSC" "C25804"
 			(at 93.98 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15764,7 +15774,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "SW_PUSH"
 			(at 95.25 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15994,7 +16004,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844375"
+		(property "LCSC" "C23186"
 			(at 95.25 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -16165,7 +16175,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77046"
+		(property "LCSC" "C15849"
 			(at 274.32 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16258,7 +16268,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77046"
+		(property "LCSC" "C15849"
 			(at 262.89 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -16563,7 +16573,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 147.32 0)
+		(at 93.98 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16573,7 +16583,7 @@
 		(dnp no)
 		(uuid "ed34b816-5f19-4e65-b934-af4e8d374cce")
 		(property "Reference" "#PWR011"
-			(at 93.98 153.67 0)
+			(at 93.98 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16584,7 +16594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.536 150.368 0)
+			(at 97.536 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16594,7 +16604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 147.32 0)
+			(at 93.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16605,7 +16615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 147.32 0)
+			(at 93.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16616,7 +16626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 147.32 0)
+			(at 93.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16796,7 +16806,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2086340"
+		(property "LCSC" "C22939"
 			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16982,7 +16992,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77046"
+		(property "LCSC" "C15849"
 			(at 77.47 179.07 0)
 			(hide yes)
 			(show_name no)
