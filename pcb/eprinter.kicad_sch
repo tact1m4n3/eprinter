@@ -5800,7 +5800,7 @@
 		)
 		(uuid "ee136fbb-ca41-414d-b4e7-2a8c6761885e")
 	)
-	(text "Vin < 5.5V\nEnable voltage:\nHigh Thresh = Vref(1.24V) * (R1 + R2 + R3) / R3 = 4.075V\nLow Thresh = Vref(1.24V) * (R1 + R2 + R3) / (R2 + R3) = 3.167V"
+	(text "Vin < 5.5V\nEnable voltage:\nHigh Thresh = Vref(1.24V) * (R1 + R2 + R3) / R3 = 4.13V\nLow Thresh = Vref(1.24V) * (R1 + R2 + R3) / (R2 + R3) = 3.1V"
 		(exclude_from_sim no)
 		(at 200.914 17.78 0)
 		(effects
@@ -9419,7 +9419,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23163"
+		(property "LCSC" "C482196"
 			(at 240.03 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11084,7 +11084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "430k"
+		(property "Value" "330k"
 			(at 184.15 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11128,7 +11128,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25969"
+		(property "LCSC" "C23137"
 			(at 181.61 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11518,7 +11518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3M"
+		(property "Value" "2M"
 			(at 184.15 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11562,7 +11562,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23156"
+		(property "LCSC" "C22976"
 			(at 181.61 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12882,7 +12882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5M"
+		(property "Value" "1M"
 			(at 184.15 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12926,7 +12926,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4172"
+		(property "LCSC" "C22935"
 			(at 181.61 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13517,7 +13517,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23163"
+		(property "LCSC" "C482196"
 			(at 132.08 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15526,7 +15526,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23163"
+		(property "LCSC" "C482196"
 			(at 161.29 166.37 0)
 			(hide yes)
 			(show_name no)
